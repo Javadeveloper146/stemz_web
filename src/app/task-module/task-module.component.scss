@@ -1,0 +1,187 @@
+
+.container{
+padding: 20px;
+background: #075c7a;
+  width: 550px;
+  align-items: center;
+  // margin-top: 30px;
+  border-radius: 30px;
+margin-top: 10px;
+
+}
+form{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.row{
+  align-items: center;
+  padding: 5px;
+
+}
+
+.col{
+  align-items: center;
+  margin-left: 10px;
+ 
+}
+
+
+button{
+  padding: 12px;
+  border-radius: 50px;
+  // margin: 20px;
+  width: 150px;
+ margin-left: 30px;
+ margin-bottom: 20px;
+
+
+}
+
+
+h1{
+  font-size: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  position: sticky;
+  // top: 0;
+  background-color: #f8f9fa; /* Light background for the header */
+  // z-index: 10;
+}
+
+
+tbody {
+  display: block;
+  max-height: 400px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* Ensures the column width is consistent */
+}
+
+
+  th{
+    
+    background-color: #6c6266; 
+    color: white;
+    text-align: center;
+   
+  }
+  .day{
+    background-color: #6c6266; 
+    color: white;
+    // text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem; /* Adjust the font size */
+  }
+
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+  }
+  
+  .edit-icon:hover {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .delete-icon:hover {
+    color: #dc3545; /* Bootstrap danger color */
+  }
+  
+  .alert-info {
+    background-color: hsl(189, 53%, 88%);
+    border-color: #bee5eb;
+    color: #0c5460;
+  }
+  
+//   .table-responsive {
+//     margin-top: 20px; /* Add some space above the table */
+//   }
+  
+  .mat-icon {
+    vertical-align: middle;
+    font-size: 1.2rem; /* Increase icon size slightly */
+    
+  }
+  
+
+
+
+
+// Month wise Reports
+/* Container for the report */
+h2 {
+  text-align: center;
+  // margin: 20px 0;
+  color: #3f51b5; /* Material blue */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  // margin-top: 20px;
+}
+
+thead {
+  background-color: #3f51b5; /* Material blue */
+  color: white;
+}
+
+th, td {
+  padding: 9px;
+  text-align: center;
+  border: 1px solid #ddd; /* Light border for table cells */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row background color */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Hover effect for rows */
+}
+
+.alert {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+tbody {
+  -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+  scrollbar-width: none;     /* Hides scrollbar in Firefox */
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.alert {
+  margin: 1rem 0;
+}
