@@ -280,7 +280,7 @@ computeUserEntries(day: any) {
   return Object.keys(day.entries).map((userId) => {
     return {
       username: day.entries[userId].username,
-      total_duration: day.entries[userId].total_duration || 'No entries',
+      total_duration: day.entries[userId].total_duration || '-',
     };
   });
 }

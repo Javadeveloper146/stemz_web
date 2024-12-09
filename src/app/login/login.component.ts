@@ -26,7 +26,7 @@ export class LoginComponent {
       const login = this.loginForm.value; // Get form values
       console.log('Login Data:', login);
 
-      this.http.post('https://javadeveloper146.github.io/login', login).subscribe(
+      this.http.post('http://127.0.0.1:8000/login', login).subscribe(
         (data: any) => {
           console.log('Data:', data);
           localStorage.setItem('userData', JSON.stringify(data));
